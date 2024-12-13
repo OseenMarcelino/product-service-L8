@@ -5,72 +5,72 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
+            name: "Logitech Wireless Mouse".to_string(),
+            price: 29.99,
+            description: "Navigate with precision using the Logitech Wireless Mouse. Features ergonomic design and seamless connectivity for enhanced productivity.".to_string(),
             image: "/catnip.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
+            name: "Samsung 4K UHD Smart TV".to_string(),
+            price: 499.99,
+            description: "Upgrade your entertainment with the Samsung 4K UHD Smart TV. Experience vivid colors, sharp detail, and streaming capabilities.".to_string(),
             image: "/squid.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
+            name: "Sony Noise-Canceling Headphones".to_string(),
+            price: 249.99,
+            description: "Immerse yourself in sound with Sony Noise-Canceling Headphones. Designed for crystal-clear audio and exceptional comfort.".to_string(),
             image: "/mermaid.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
+            name: "Apple MacBook Air".to_string(),
+            price: 999.99,
+            description: "Power through your tasks with the Apple MacBook Air. Equipped with the M1 chip for blazing-fast performance and all-day battery life.".to_string(),
             image: "/ocean.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
+            name: "Fitbit Charge 5".to_string(),
+            price: 149.99,
+            description: "Stay on top of your health with the Fitbit Charge 5. Tracks your fitness activities, sleep, and heart rate for a healthier lifestyle.".to_string(),
             image: "/pirate.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
+            name: "Microsoft Surface Pro 8".to_string(),
+            price: 1099.99,
+            description: "Transform your workflow with the Microsoft Surface Pro 8. A versatile 2-in-1 laptop and tablet with a stunning touchscreen display.".to_string(),
             image: "/tug.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
+            name: "Dyson V11 Vacuum Cleaner".to_string(),
+            price: 699.99,
+            description: "Keep your home spotless with the Dyson V11 Vacuum Cleaner. Engineered for powerful suction and intelligent cleaning modes.".to_string(),
             image: "/bed.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
+            name: "Canon EOS Rebel T7 Camera".to_string(),
+            price: 449.99,
+            description: "Capture stunning photos and videos with the Canon EOS Rebel T7. Features a high-resolution sensor and easy-to-use interface.".to_string(),
             image: "/knot.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
+            name: "Bose SoundLink Bluetooth Speaker".to_string(),
+            price: 129.99,
+            description: "Enjoy high-quality sound anywhere with the Bose SoundLink Bluetooth Speaker. Compact, portable, and equipped with a long-lasting battery.".to_string(),
             image: "/crabby.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
+            name: "KitchenAid Stand Mixer".to_string(),
+            price: 379.99,
+            description: "Elevate your cooking and baking with the KitchenAid Stand Mixer. A versatile tool for kneading, mixing, and whipping ingredients.".to_string(),
             image: "/lifejacket.jpg".to_string()
         }
     ]
